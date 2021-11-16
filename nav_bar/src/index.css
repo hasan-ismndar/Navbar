@@ -1,0 +1,8 @@
+@tailwind base;
+.links-container {
+  transition: height 0.3s linear;
+  @apply md:h-auto !important;
+}
+
+@tailwind components;
+@tailwind utilities;
